@@ -1,0 +1,194 @@
+.boxhide {
+    display: none;
+}
+
+.bg {
+    background-image: url(mountain.jpg);
+    height: 600px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text {
+    padding: 10px;
+    float: right;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    position: relative;
+    top: 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(amu.jpg);
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin: auto;
+}
+
+.img1 {
+    background-image: url(pc.jfif);
+    background-position: center;
+    background-size: cover;
+    float: right;
+    margin-top: 60px;
+    height: 250px;
+    width: 400px;
+    margin-right: 40px;
+}
+
+p {
+    color: red;
+}
+
+.div_one {
+    height: 600px;
+    background-color: rgb(97, 5, 150);
+}
+
+.div_two {
+    height: 160px;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: rgb(72, 5, 110);
+}
+
+.div_two p {
+    color: white;
+    padding: 10px;
+    width: 40;
+    padding-top: 0px;
+    padding-left: 50px;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.pic {
+    gap: 10px;
+    height: 200px;
+    background-position: center;
+    background-color: rgb(97, 5, 150);
+    background-size: cover;
+}
+
+.about {
+    background-color: rgb(97, 5, 150);
+    height: 500px;
+    width: 100%;
+    padding-top: 45px;
+}
+
+.i1 {
+    background-image: url(i1.jfif);
+}
+
+.i2 {
+    background-image: url(i2.jfif);
+}
+
+.i3 {
+    background-image: url(i3.jfif);
+}
+
+.i4 {
+    background-image: url(i4.jfif);
+}
+
+.pbar1 {
+    margin: auto;
+    border: 2px solid gray;
+    width: 20%;
+    height: 30px;
+}
+
+.p1 {
+    margin: 3px;
+    background-color: #58159bcb;
+}
+
+.p2 {
+    margin: 3px;
+    background-color: rgb(9, 137, 243);
+}
+
+div.transbox {
+    background-color: rgba(140, 6, 250, 0.5);
+    backdrop-filter: blur(1px);
+    padding: 31px;
+}
+
+.t {
+    color: white;
+    font-size: 33px;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.edu {
+    background-size: cover;
+    background-position: center;
+    background-image: url(education.avif);
+}
+
+.engg {
+    background-image: url(eng.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 10px;
+    height: 50px;
+    width: 70px;
+}
+
+.diploma {
+    background-image: url(diploma.jfif);
+    background-position: center;
+    background-size: cover;
+    height: 50px;
+    width: 70px;
+}
+
+.ssc {
+    background-image: url(10th.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50px;
+    width: 70px;
+}
+
+.textp {
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.btn_new {
+    border: 2px solid white;
+    background-color: #0af11d;
+}
+
+.btn_new:hover {
+    background-color: rgb(139, 14, 241);
+}
+
+.canvas1 a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+.text a:hover {
+    background-color: rgb(9, 178, 245);
+}

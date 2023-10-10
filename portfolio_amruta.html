@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="amruta.css">
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <div class="bg">
+        <div class="transbox">
+            <div class="container">
+                <a class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" role="button"
+                    aria-controls="offcanvasExample">
+                    <i class="bi bi-list"></i>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="23" fill="white" class="bi bi-list"
+                        viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                    </svg>
+                </a>
+
+                <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasExample"
+                    aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                        <button type="button" class="btn-close" id="close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="canvas1 offcanvas-body" id="one">
+                        <a  onclick="myfunction()" href="#hello">Hello</a><br>
+                        <a onclick="myfunction() " href="#about">About Me</a><br>
+                        <a onclick="myfunction()" href="#skills">Skills and Abilities</a><br>
+                        <a href="#education">Education</a><br>
+                        <a href="#projects">Projects</a><br>
+                        <a href="#social">Social networks</a><br>
+                        <a href="#contact">Contact Me</a>
+                    </div>
+                </div>
+
+                <script>
+                   function myfunction()
+                   {
+                    var x=document.getElementById("offcanvasExample")
+                    if (x.style.display == "none")
+                    {
+                        x.style.display = "block";
+                    }
+                    else
+                    {
+                        x.style.display = "none";
+                    }
+                   }
+                </script>
+
+                <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#Phone" role="button"
+                    aria-controls="offcanvasExample" style="font-size:24px;margin-left: 860px;margin-top: 5px;">
+                    <i class="fa fa-phone"></i></button>
+                </a>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="Phone" aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <p>Mobile No- +91 9665217220</p>
+                        <hr>
+                        <p>Contact Hours: Mon- Fri: 9.00 to 22.00</p>
+                        <p style="float: right;padding-right: 100px;">Sat-Sun: 10.00 to 18.00</p>
+                    </div>
+                </div>
+
+                <div class="text">
+                    <a href="#contact" class="btn btn-primary">
+                        Hire me now</a>
+                </div>
+
+                <div class="img"></div>
+                <br><br><br>
+                <section id="hello">
+                    <p class="text-center t text-capitalize" style="font-size: 60px;">amruta mitti</p>
+                    <p class="text-center t text-capitalize">Designer,Programmer, Creative, Innovator.</p>
+                    <p class="text-center t ">I am a full stack Java developer</p><br>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <div class="p-3 mb-2 text-white div_one">
+        <div class="img1"></div>
+        <section id="about">
+            <p class="text-center text-light text-capitalize fs-1">About Me</p>
+            <p class="text-left text-light" style="font-size: 25px;padding-left: 30px;">I Completed B.Tech in CSE in
+                2022 from DBATU University.
+                <br><br> I am able to work in any environment.
+                Having sound knowledge of java,sql,html,.css,software testing.<br><br>
+                I am flexible to work and passionate to learn new technologies.
+            </p>
+        </section><br>
+
+        <div class="row  div_two rowcols=4">
+            <div class="col-1" style="float: left;padding-left: 60px;padding-top: 5px;">
+                <i class="bi bi-camera"></i>
+                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="100" fill="currentColor" class="bi bi-camera"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M15 12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h1.172a3 3 0 0 0 2.12-.879l.83-.828A1 1 0 0 1 6.827 3h2.344a1 1 0 0 1 .707.293l.828.828A3 3 0 0 0 12.828 5H14a1 1 0 0 1 1 1v6zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2z" />
+                    <path
+                        d="M8 11a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5zm0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7zM3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z" />
+                </svg>
+            </div>
+            <div class="col" style="text-align: center;">
+                <h4>Good Camera</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius harum explicabo dolorum magni sit quod.
+                </p>
+            </div>
+
+            <div class="col-1" style="float: left;padding-left: 50px;padding-top:20px;">
+                <i class="bi bi-laptop"></i>
+                <svg xmlns="http://www.w3.org/2000/svg" width="65" height="70" fill="currentColor" class="bi bi-laptop"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5h11zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5z" />
+                </svg>
+            </div>
+            <div class="col" style="text-align: center;">
+                <h4>Good Programmer</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, optio?</p>
+            </div>
+
+            <div class="col-1" style="float: left;padding-left: 50px;padding-top: 10px;">
+                <i class="bi bi-cup-hot"></i>
+                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="70" fill="currentColor" class="bi bi-cup-hot"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M.5 6a.5.5 0 0 0-.488.608l1.652 7.434A2.5 2.5 0 0 0 4.104 16h5.792a2.5 2.5 0 0 0 2.44-1.958l.131-.59a3 3 0 0 0 1.3-5.854l.221-.99A.5.5 0 0 0 13.5 6H.5ZM13 12.5a2.01 2.01 0 0 1-.316-.025l.867-3.898A2.001 2.001 0 0 1 13 12.5ZM2.64 13.825 1.123 7h11.754l-1.517 6.825A1.5 1.5 0 0 1 9.896 15H4.104a1.5 1.5 0 0 1-1.464-1.175Z" />
+                    <path
+                        d="m4.4.8-.003.004-.014.019a4.167 4.167 0 0 0-.204.31 2.327 2.327 0 0 0-.141.267c-.026.06-.034.092-.037.103v.004a.593.593 0 0 0 .091.248c.075.133.178.272.308.445l.01.012c.118.158.26.347.37.543.112.2.22.455.22.745 0 .188-.065.368-.119.494a3.31 3.31 0 0 1-.202.388 5.444 5.444 0 0 1-.253.382l-.018.025-.005.008-.002.002A.5.5 0 0 1 3.6 4.2l.003-.004.014-.019a4.149 4.149 0 0 0 .204-.31 2.06 2.06 0 0 0 .141-.267c.026-.06.034-.092.037-.103a.593.593 0 0 0-.09-.252A4.334 4.334 0 0 0 3.6 2.8l-.01-.012a5.099 5.099 0 0 1-.37-.543A1.53 1.53 0 0 1 3 1.5c0-.188.065-.368.119-.494.059-.138.134-.274.202-.388a5.446 5.446 0 0 1 .253-.382l.025-.035A.5.5 0 0 1 4.4.8Zm3 0-.003.004-.014.019a4.167 4.167 0 0 0-.204.31 2.327 2.327 0 0 0-.141.267c-.026.06-.034.092-.037.103v.004a.593.593 0 0 0 .091.248c.075.133.178.272.308.445l.01.012c.118.158.26.347.37.543.112.2.22.455.22.745 0 .188-.065.368-.119.494a3.31 3.31 0 0 1-.202.388 5.444 5.444 0 0 1-.253.382l-.018.025-.005.008-.002.002A.5.5 0 0 1 6.6 4.2l.003-.004.014-.019a4.149 4.149 0 0 0 .204-.31 2.06 2.06 0 0 0 .141-.267c.026-.06.034-.092.037-.103a.593.593 0 0 0-.09-.252A4.334 4.334 0 0 0 6.6 2.8l-.01-.012a5.099 5.099 0 0 1-.37-.543A1.53 1.53 0 0 1 6 1.5c0-.188.065-.368.119-.494.059-.138.134-.274.202-.388a5.446 5.446 0 0 1 .253-.382l.025-.035A.5.5 0 0 1 7.4.8Zm3 0-.003.004-.014.019a4.077 4.077 0 0 0-.204.31 2.337 2.337 0 0 0-.141.267c-.026.06-.034.092-.037.103v.004a.593.593 0 0 0 .091.248c.075.133.178.272.308.445l.01.012c.118.158.26.347.37.543.112.2.22.455.22.745 0 .188-.065.368-.119.494a3.198 3.198 0 0 1-.202.388 5.385 5.385 0 0 1-.252.382l-.019.025-.005.008-.002.002A.5.5 0 0 1 9.6 4.2l.003-.004.014-.019a4.149 4.149 0 0 0 .204-.31 2.06 2.06 0 0 0 .141-.267c.026-.06.034-.092.037-.103a.593.593 0 0 0-.09-.252A4.334 4.334 0 0 0 9.6 2.8l-.01-.012a5.099 5.099 0 0 1-.37-.543A1.53 1.53 0 0 1 9 1.5c0-.188.065-.368.119-.494.059-.138.134-.274.202-.388a5.446 5.446 0 0 1 .253-.382l.025-.035A.5.5 0 0 1 10.4.8Z" />
+                </svg>
+            </div>
+            <div class="col" style="text-align: center;">
+                <h4>Coffee Lover</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, consectetur.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row pic rowcols=4">
+        <div class="col i1"></div>
+        <div class="col i2"></div>
+        <div class="col i3"></div>
+        <div class="col i4"></div>
+    </div>
+
+    <div class="about">
+        <p class="text-center text-light text-capitalize" style="font-size: 50px;">More About Me, and My Life</p>
+        <p class="text-center text-light text-capitalize fs-3"
+            style="text-align: justify;padding-left: 50px;padding-right: 50px;">Lorem ipsum dolor sit amet consectetur,
+            adipisicing
+            elit. Dolores neque mollitia cum laudantium eum.
+            Labore debitis quam dolor eveniet molestias earum voluptatum laborum, reprehenderit sapiente.</p>
+        <br><br>
+        <div class="row">
+            <div class="col text-light">
+                <h2 style="text-align: center;">Programmer</h2>
+                <p style="color: white; text-align: center;padding: 10px;">I love programming in
+                    C++,<br>Java,HTML,CSS,Javascript and OOPS <br>Concepts</p>
+            </div>
+            <div class="col text-light">
+                <h2>Creator</h2>
+                <p style="color:  white;">I love to create new projects from <br>studied topics and languages and
+                    interested <br>to think in creative way</p>
+            </div>
+            <div class="col text-light">
+                <h2>Enthusiastic</h2>
+                <p style="color: white;">
+                    I am enthusiastic girl who is active in every coding <br>and new activites.Able to participate and
+                    learn from that competition</p>
+            </div>
+        </div>
+    </div><br>
+
+    <div class="text-center text-dark">
+        <section id="skills">
+            <h2 style="font-size: 60px;font-weight: lighter;text-align: left;padding-left: 190px;">Skills and Abilities
+            </h2>
+            <br>
+            <p style="color: black;text-align: left;padding-left: 190px;">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit.
+                Accusamus, sunt expedita. Accusantium vel eos illum?</p>
+        </section>
+    </div><br><br>
+
+    <div class="row rowcols=2">
+        <div class="col">
+            <p style="text-align: center;">HTML</p>
+        </div>
+        <div class="col">
+            <p style="text-align: left;">CSS3</p>
+        </div>
+    </div>
+
+    <div class="progress pbar1" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0"
+        aria-valuemax="100" style="float: left; margin-left: 200px;">
+        <div class="progress-bar p1 " style="width: 75%;"></div>
+    </div>
+
+    <div class="progress pbar1" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0"
+        aria-valuemax="100" style="float: left;margin-left: 100px;">
+        <div class="progress-bar p2 " style="width: 95%;"></div>
+    </div><br><br>
+
+    <div class="row rowcols=2">
+        <div class="col">
+            <p style="text-align: center;">SQL</p>
+        </div>
+        <div class="col">
+            <p style="text-align: left;">JAVA</p>
+        </div>
+    </div>
+
+    <div class="progress pbar1" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0"
+        aria-valuemax="100" style="float: left;margin-left: 200px;">
+        <div class="progress-bar p1" style="width: 100%;"></div>
+    </div>
+
+    <div class="progress pbar1" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0"
+        aria-valuemax="100" style="float: left;margin-left: 100px;">
+        <div class="progress-bar p2" style="width: 99%;"></div>
+    </div><br><br>
+
+    <div class="row rowcols=2">
+        <div class="col" style="text-align: center;">
+            <p>BOOTSRAP</p>
+        </div>
+        <div class="col" style="text-align: left;">
+            <p>TESTING</p>
+        </div>
+    </div>
+
+    <div class="progress pbar1" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0"
+        aria-valuemax="100" style="float: left;margin-left: 200px;">
+        <div class="progress-bar p1 " style="width: 80%;"></div>
+    </div>
+
+    <div class="progress pbar1" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0"
+        aria-valuemax="100" style="float: left;margin-left: 100px;">
+        <div class="progress-bar p2 " style="width: 90%;"></div>
+    </div><br><br><br><br>
+
+    <div class="row rowcols=3">
+        <div class="col-3"
+            style=" padding-top: 15px;  margin-left: 100px;margin-right: 40px;  border-radius: 15px;border: 3px solid ghostwhite;background-color: lightgrey">
+            <p style="font-size: 40px;color: blue;">Software Skills</p>
+            <p style="color: black;">VS Code <span
+                    style="float: right;padding-right: 15px;color: purple;">INTERMEDIATE</span></p>
+            <p style="color: black;">Notepad++ <span style="float: right;padding-right: 15px;color: blue;">EXPERT</span>
+            </p>
+            <p style="color: black;">MYSQL <span style="float: right;padding-right: 15px;color: purple;">EXPERT</span>
+            </p>
+            <p style="color: black;">Sublime Text <span
+                    style="float: right;padding-right: 15px;color: blue;">EXPERT</span></p>
+        </div>
+        <div class="col-3"
+            style=" padding-top: 15px;  border-radius: 15px;border: 3px solid ghostwhite;background-color: lightgray;">
+            <p style="color: blue;font-size: 40px;">Technical Skills</p>
+            <p style="color: black;">Web Design Development <span
+                    style="float: right;padding-right: 15px;color: purple;">EXPERT</span></p>
+            <p style="color: black;">Backend Development <span
+                    style="float: right;padding-right: 15px;color: blue;">INTERMEDIATE</span></p>
+            <p style="color: black;">Database <span
+                    style="float: right;padding-right: 15px;color: purple;">ADVANCED</span> </p>
+            <p style="color: black;">Software Testing <span
+                    style="float: right;padding-right: 15px;color: blue;">EXPERT</span></p>
+        </div>
+        <div class="col-3"
+            style=" padding-top: 15px;  margin-left: 40px; border-radius: 15px;border: 3px solid ghostwhite;background-color: lightgray;">
+            <p style="color: purple;font-size: 40px;">Other Interests</p>
+            <p style="color: black">Coding </p>
+            <p style="color: black;">Talking</p>
+            <p style="color: black">Presentation </p>
+            <p style="color: black">Tennis</p>
+        </div>
+    </div><br><br>
+
+    <div class="edu">
+        <div class="transbox">
+            <section id="education">
+                <h1 style="color: white;text-align: center;">Education</h1><br>
+                <div class="row rowcols=2" style="margin-left: 120px;">
+                    <div class="col-3">
+                        <p style="text-align: center; color: blue;background-color: white;">B.Tech
+                            <br>AMGOI
+                        </p>
+                    </div>
+                    <div class="engg col-3" style="margin-top: 1px;margin-left: 10px;"></div>
+                </div>
+                <div class="row rowcols=2" style="margin-left: 550px;">
+                    <div class="col-4">
+                        <p style="color: blue; text-align: center;background-color: white;">Diploma <br> AMPV</p>
+                    </div><br><br><br>
+                    <div class="diploma col-3" style="margin-top: 1px;margin-left: 10px;"></div>
+                </div>
+                <div class="row rowcols=2" style="margin-left: 120px;">
+                    <div class="col-3">
+                        <p style="color: blue;background-color: white;text-align: center;">SSC <br>Ideal English School
+                        </p>
+                    </div>
+                    <div class="ssc" style="margin-left: 10px;"></div>
+            </section>
+        </div>
+    </div>
+    </div> <br>
+
+    <div style="background-color: rgb(97, 5, 150);color: white; margin: 0;height: 400px;">
+        <section id="projects">
+            <h1 style="text-align: center;padding-top: 10px;">Projects</h1>
+            <h3 style="color: white;padding-left: 20px;">1] Medical management System-</h1>
+                <p style="color: white;padding-left: 30px;">Using HTML,CSS,JAVA and SQL language done this project. Aim
+                    of this project to help
+                    store person to immediately to find out medicines by their name ,which slot and updation,adding new
+                    medicines and deleting medicines data.
+                    This prject done for admin use. </p>
+                <h3 style="color: white;padding-left: 20px;">2] Gym Website-</h3>
+                <p style="color: white;padding-left: 45px;">Done this project using HTML,CSS. For making body fit, and
+                    active of humnan body Various excercises can
+                    be done through gym for weight loss.
+                </p>
+        </section>
+        <br>
+
+        <div class="row" style="background-color: rgb(72, 5, 110);height: 150px;">
+            <div class="col" style="margin-top: 33px;margin-left: 50px;">
+                <section id="social">
+                    <a href="#"> <i class="bi bi-linkedin"></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="45" height="55" fill="white"
+                            class="bi bi-linkedin" viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                        </svg> </a>
+            </div>
+            <div class="col" style="margin-top: 33px;">
+                <a href="#"><i class="bi bi-whatsapp"></i>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="45" height="55" fill="white" class="bi bi-whatsapp"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+                    </svg></a>
+            </div>
+            <div class="col" style="margin-top: 33px;">
+                <a href="#"><i class="bi bi-github"></i>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="45" height="55" fill="white" class="bi bi-github"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                    </svg> </a>
+            </div>
+            <div class="col" style="margin-top: 33px;">
+                <a href="#"> <i class="bi bi-instagram"></i>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="45" height="55" fill="WHITE" class="bi bi-instagram"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                    </svg></a>
+            </div>
+            <div class="col"><button id="#" style="border-radius: 20px;margin-top: 40px;padding: 10px;">Download
+                    Resume</button></div>
+        </div>
+        </section>
+    </div><br>
+
+    <section id="contact">
+        <p style="font-style: italic;padding-left: 450px; font-size: 60px;font-weight: lighter; color: black;">Contact
+            Me</h1>
+        <div class="row rowcols-2"
+            style="width: 31%;margin-left: 400px;border-left: 2px solid gray;border-top: 2px solid gray;border-right: 2px solid gray; border-bottom: 5px solid rgb(14, 126, 170);">
+            <div class="col"><i class="bi bi-person-lines-fill"></i>
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="40" fill="black"
+                    class="bi bi-person-lines-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2z" />
+                </svg>
+            </div>
+            <div class="col" style="border: none; padding-left: 0px;">
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Name"
+                    style="border: none;text-align: center;">
+            </div>
+    </section>
+    </div>
+    <br>
+
+    <div class="row rowcols-2"
+        style="width:31%;margin-left: 400px;border: 2px solid gray;border-bottom: 5px solid rgb(5, 127, 175); height: 50px;">
+        <div class="col">
+            <i class="bi bi-envelope"></i>
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="40" fill="currentColor" class="bi bi-envelope"
+                viewBox="0 0 16 16">
+                <path
+                    d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+            </svg>
+        </div>
+        <div class="col">
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"
+                style="border: none;">
+        </div>
+    </div>
+
+
+    <div class="col-4">
+        <label for="exampleFormControlTextarea1" class="form-label"></label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+            style="border: 2px solid grey; text-align: left; border-bottom: 5px solid rgb(4, 136, 189); width: 95%; margin-left: 400px; text-align: center;"
+            placeholder="Enter Anything Here..."></textarea>
+    </div><br>
+    <button class="btn btn-primary" type="submit"
+        style="width: 32%;text-align: center;margin-left: 395px;">Button</button>
+    <br><br><br>
+    </div>
+    </div>
+    </div>
+   
+</body>
+
+</html>
